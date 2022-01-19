@@ -6,10 +6,11 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i=i+2)
+            for (int i = 3; i > 0; i--)
             {
                 Console.WriteLine(i);
             }
+            Console.WriteLine("スタート");
         }
     }
 }
