@@ -6,7 +6,7 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int playerPosX = 5;
+            int playerPosX = 10;
             int enemyPosX  =  10;
 
             if (playerPosX ==  enemyPosX)
