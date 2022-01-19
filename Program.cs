@@ -6,17 +6,11 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            float[] weights = new float[7];
+            //変数をまとめて初期化できる
+            float[] weights = {41.2f, 42.5f, 44.9f, 43.2f, 45.1f, 43.2f, 42.7f, 41.5f, 41.4f, 41.9f};
 
-            weights[0] = 41.2f;
-            weights[1] = 42.5f;
-            weights[2] = 44.9f;
-            weights[3] = 43.2f;
-            weights[4] = 45.1f;
-            weights[5] = 43.2f;
-            weights[6] = 43.7f;
-
-            for (int i = 0;i < 7; i++)
+            //
+            for (int i = 0;i < weights.Length; i++)
             {
                 Console.WriteLine(weights[i]);
             }
