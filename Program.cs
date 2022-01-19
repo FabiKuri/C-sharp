@@ -6,8 +6,7 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            float[] weights;
-            weights = new float[7];
+            float[] weights = new float[7];
 
             weights[0] = 41.2f;
             weights[1] = 42.5f;
