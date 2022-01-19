@@ -6,20 +6,19 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int playerPosX = 5;
-            int missilePosX = 15;
+            int num = 1;
 
             while (true)
             {
-                if  (playerPosX == missilePosX)
+                if (num >= 500)
                 {
                     break;
                 }
-                
-                Console.WriteLine("missile at" + missilePosX);
-                missilePosX--;
+
+                Console.WriteLine(num);
+                num = num + num;
             }
-            Console.WriteLine("HIT");
+            
         }
     }
 }
