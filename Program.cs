@@ -6,11 +6,12 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int num = 5;
+            int player1PosX = 2;
+            int player2PosX = 6;
 
-            if (num >= 3)
+            if (player1PosX == 2 && player2PosX ==6)
             {
-                Console.WriteLine("勝ち");
+                Console.WriteLine("仕掛け解除");
             }
         }
     }
