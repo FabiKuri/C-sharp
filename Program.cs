@@ -6,13 +6,13 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int a =  10;
+            int playerPosX = 5;
+            int enemyPosX  =  10;
 
-            a--;
-            a--;
-
-            a  /= 4;
-            Console.WriteLine(a);
+            if (playerPosX ==  enemyPosX)
+            {
+                Console.WriteLine("敵と遭遇");
+            }
         }
     }
 }
