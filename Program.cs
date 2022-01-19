@@ -6,10 +6,13 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int life = 1;
+            int a =  10;
 
-            life ++;
-            Console.WriteLine(life);
+            a--;
+            a--;
+
+            a  /= 4;
+            Console.WriteLine(a);
         }
     }
 }
