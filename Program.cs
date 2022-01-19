@@ -6,9 +6,9 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine("攻撃");
+                Console.WriteLine("逃走");
             }
         }
     }
