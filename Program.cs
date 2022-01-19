@@ -8,19 +8,10 @@ namespace C_sharp
         {
             int answer;
 
-            answer = 3 + 4;
+            answer = 1 + 2 + 3 + 4 + 5;
             Console.WriteLine(answer);
 
-            answer  = 12 -18;
-            Console.WriteLine(answer);
-
-            answer  = 2 * 7;
-            Console.WriteLine(answer);
-
-            answer  = 18 / 3;    
-            Console.WriteLine(answer);
-
-            answer  = 21 % 5;
+            answer = 30 % 7;
             Console.WriteLine(answer);
         }
     }
