@@ -6,9 +6,9 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i < 4; i++)
+            for (int i = 2; i < 6; i++)
             {
-                Console.WriteLine(i + "番!");
+                Console.WriteLine(i);
             }
         }
     }
