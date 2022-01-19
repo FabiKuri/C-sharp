@@ -6,11 +6,10 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int a = 5;
-            int b = 2;
+            int life = 1;
 
-            float c  = (float)a  / (float)b;
-            Console.WriteLine(c);
+            life = life + 3;
+            Console.WriteLine(life);
         }
     }
 }
