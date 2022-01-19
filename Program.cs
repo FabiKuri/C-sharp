@@ -6,15 +6,15 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int playerPosY = 3;
+            int num = 2;
 
-            if (playerPosY >= 0)
+            if (num >= 3)
             {
-                Console.WriteLine("走る!");
+                Console.WriteLine("勝ち");
             }
             else
             {
-                Console.WriteLine("泳ぐ!");
+                Console.WriteLine("負け");
             }
         }
     }
