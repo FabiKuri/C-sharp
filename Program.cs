@@ -6,13 +6,12 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int answer;
+            int money = 15000;
+            int salary = 1000;
+            int hour = 5;
 
-            answer = 1 + 2 + 3 + 4 + 5;
-            Console.WriteLine(answer);
-
-            answer = 30 % 7;
-            Console.WriteLine(answer);
+            int sum = money + salary * hour;
+            Console.WriteLine(sum);
         }
     }
 }
