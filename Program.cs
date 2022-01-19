@@ -7,7 +7,7 @@ namespace C_sharp
         static void Main(string[] args)
         {
             int money = 15000;
-            int salary = 1000;
+            int salary = 1150;
             int hour = 5;
 
             int sum = money + salary * hour;
