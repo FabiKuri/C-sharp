@@ -6,7 +6,8 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Test");
+            Console.WriteLine("Hello, C#");
+            Console.WriteLine("Goodbye, C#");
         }
     }
 }
