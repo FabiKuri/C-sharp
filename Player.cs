@@ -20,4 +20,19 @@ namespace C_sharp
             
         }
     }
+
+    class Enemy
+    {
+        public int hp;
+
+        public void Attack()
+        {
+            Console.WriteLine("敵の攻撃");
+        }
+
+        public void Runaway()
+        {
+            Console.WriteLine("逃げられた");
+        }
+    }
 }
