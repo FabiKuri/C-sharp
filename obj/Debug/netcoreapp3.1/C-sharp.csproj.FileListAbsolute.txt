@@ -1,0 +1,8 @@
+/Users/fabikuri/C#/確かな力がつく/C-sharp/bin/Debug/netcoreapp3.1/C-sharp.dll
+/Users/fabikuri/C#/確かな力がつく/C-sharp/bin/Debug/netcoreapp3.1/C-sharp.pdb
+/Users/fabikuri/C#/確かな力がつく/C-sharp/obj/Debug/netcoreapp3.1/C-sharp.csprojAssemblyReference.cache
+/Users/fabikuri/C#/確かな力がつく/C-sharp/obj/Debug/netcoreapp3.1/C-sharp.AssemblyInfoInputs.cache
+/Users/fabikuri/C#/確かな力がつく/C-sharp/obj/Debug/netcoreapp3.1/C-sharp.AssemblyInfo.cs
+/Users/fabikuri/C#/確かな力がつく/C-sharp/obj/Debug/netcoreapp3.1/C-sharp.csproj.CoreCompileInputs.cache
+/Users/fabikuri/C#/確かな力がつく/C-sharp/obj/Debug/netcoreapp3.1/C-sharp.dll
+/Users/fabikuri/C#/確かな力がつく/C-sharp/obj/Debug/netcoreapp3.1/C-sharp.pdb

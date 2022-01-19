@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fabikuri/C#/確かな力がつく/C-sharp/C-sharp.csproj",
+      "projectUniqueName": "/Users/fabikuri/C#/確かな力がつく/C-sharp/C-sharp.csproj",
       "projectName": "C-sharp",
-      "projectPath": "/Users/fabikuri/C#/確かな力がつく/C-sharp/C-sharp.csproj",
+      "projectPath": "/Users/fabikuri/C#/確かな力がつく/C-sharp/C-sharp.csproj",
       "packagesPath": "/Users/fabikuri/.nuget/packages/",
-      "outputPath": "/Users/fabikuri/C#/確かな力がつく/C-sharp/obj/",
+      "outputPath": "/Users/fabikuri/C#/確かな力がつく/C-sharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/fabikuri/.nuget/NuGet/NuGet.Config"

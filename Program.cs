@@ -6,8 +6,15 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, C#");
-            Console.WriteLine("Goodbye, C#");
+            int money;
+            string name;
+
+            money = 5000;
+            name = "きたむら";
+
+            Console.WriteLine(money);
+            Console.WriteLine(name);
+
         }
     }
 }
