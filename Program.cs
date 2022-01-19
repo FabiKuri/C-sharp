@@ -6,26 +6,10 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int hp = 100;
-            int mapType = 2;
-
-            if (mapType == 1)
+            for (int i = 0; i < 5; i++)
             {
-                hp += 10;
+                Console.WriteLine("攻撃");
             }
-            else if (mapType == 2)
-            {
-                hp -= 5;
-            }
-            else if (mapType == 3)
-            {
-                hp = 0;
-            }
-            else
-            {
-                Console.WriteLine("HPの変化なし");
-            }
-            Console.WriteLine("HP=" + hp);
         }
     }
 }
