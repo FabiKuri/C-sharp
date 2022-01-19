@@ -9,10 +9,10 @@ namespace C_sharp
         public string name;
         public int hp;
 
-        public Player()
+        public Player(string name, int hp)
         {
-            this.name  = "たかし";
-            this.hp = 100;
+            this.name  = name;
+            this.hp = hp;
         }
 
         public void Attack()
