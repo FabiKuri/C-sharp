@@ -6,10 +6,15 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            for (int i = 10; i >= 0; i--)
+            int playerPosX = 5;
+            int missilePosX = 15;
+
+            while (playerPosX != missilePosX)
             {
-                Console.WriteLine(i);
+                Console.WriteLine("missile at" + missilePosX);
+                missilePosX--;
             }
+            Console.WriteLine("HIT");
         }
     }
 }
