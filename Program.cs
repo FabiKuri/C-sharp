@@ -6,16 +6,26 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int num = 2;
+            int hp = 100;
+            int mapType = 2;
 
-            if (num >= 3)
+            if (mapType == 1)
             {
-                Console.WriteLine("勝ち");
+                hp += 10;
+            }
+            else if (mapType == 2)
+            {
+                hp -= 5;
+            }
+            else if (mapType == 3)
+            {
+                hp = 0;
             }
             else
             {
-                Console.WriteLine("負け");
+                Console.WriteLine("HPの変化なし");
             }
+            Console.WriteLine("HP=" + hp);
         }
     }
 }
