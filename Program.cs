@@ -6,15 +6,22 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int money;
-            string name;
+            int answer;
 
-            money = 5000;
-            name = "きたむら";
+            answer = 3 + 4;
+            Console.WriteLine(answer);
 
-            Console.WriteLine(money);
-            Console.WriteLine(name);
+            answer  = 12 -18;
+            Console.WriteLine(answer);
 
+            answer  = 2 * 7;
+            Console.WriteLine(answer);
+
+            answer  = 18 / 3;    
+            Console.WriteLine(answer);
+
+            answer  = 21 % 5;
+            Console.WriteLine(answer);
         }
     }
 }
