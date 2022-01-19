@@ -6,17 +6,20 @@ namespace C_sharp
     {
         static void Main(string[] args)
         {
-            int num = 1;
+            float[] weights;
+            weights = new float[7];
 
-            while (true)
+            weights[0] = 41.2f;
+            weights[1] = 42.5f;
+            weights[2] = 44.9f;
+            weights[3] = 43.2f;
+            weights[4] = 45.1f;
+            weights[5] = 43.2f;
+            weights[6] = 43.7f;
+
+            for (int i = 0;i < 7; i++)
             {
-                if (num >= 500)
-                {
-                    break;
-                }
-
-                Console.WriteLine(num);
-                num = num + num;
+                Console.WriteLine(weights[i]);
             }
             
         }
