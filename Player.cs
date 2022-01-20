@@ -35,19 +35,20 @@ namespace C_sharp
         }
 
 
-
-        public void SetHp(int hp)
+        public int Hp
         {
-            this.hp = hp;
-            if (this.hp < 0)
+            set
             {
-                this.hp = 0;
+                this.hp = value;
+                if (this.hp < 0)
+                {
+                    this.hp = 0;
+                }
             }
-        }
-
-        public int GetHp()
-        {
-            return this.hp;
+            get 
+            {
+                return this.hp;
+            }
         }
 
         public void Attack()
