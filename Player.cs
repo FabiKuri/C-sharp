@@ -6,8 +6,8 @@ namespace C_sharp
 {
     class Player
     {
-        public string name;
-        public int hp;
+        private string name;
+        private int hp;
 
         public Player(string name, int hp)
         {
