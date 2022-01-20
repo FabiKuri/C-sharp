@@ -15,6 +15,41 @@ namespace C_sharp
             this.hp = hp;
         }
 
+        
+
+        public void SetName(string name)
+        {  
+            if  (name  != null)
+            {
+                int len =  name.Length;
+
+                if (len <= 8)
+                {
+                    this.name = name;
+                }
+            }
+        }
+        public string GetName()
+        {
+            return this.name;
+        }
+
+
+
+        public void SetHp(int hp)
+        {
+            this.hp = hp;
+            if (this.hp < 0)
+            {
+                this.hp = 0;
+            }
+        }
+
+        public int GetHp()
+        {
+            return this.hp;
+        }
+
         public void Attack()
         {
             Console.WriteLine(this.name + "は攻撃した");
